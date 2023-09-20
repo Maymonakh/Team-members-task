@@ -1,0 +1,85 @@
+
+@import '~font-awesome/css/font-awesome.min.css';
+
+.team-member-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  flex-grow: 1;
+  padding: 10px;
+  border: #fff;
+  border-bottom:  1px solid #ccc;
+  margin-left: 5px;
+}
+
+.member-list {
+  list-style: none;
+  padding: 0;
+}
+
+.member-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: #ccc 1px solid;
+  padding: 7px;
+  border-radius: 3px;
+}
+
+.member-item.unchecked {
+  color: #ccc; 
+}
+
+.member-info {
+  display: flex;
+  align-items: center;
+}
+
+.member-info i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.check-icon {
+  font-size: 20px;
+  color: #8bc34a; 
+}
+
+.check-icon .fa-circle {
+  color: #ccc;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.cancel-button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.save-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
